@@ -1,33 +1,39 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: font-family: 'Zen Loop', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Zen Loop", cursive;
 }
 
 main {
-height: 100vh;
-border: 2px solid red;
-display: flex;
+  height: 100vh;
+  border: 2px solid red;
+  display: flex;
 }
 
 .boxes {
-height: 32%;
-background-color: rgb(95, 95, 97);
-display: flex;
-justify-content: center;
-align-items: center;
+  height: 32%;
+  background-color: rgb(95, 95, 97);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #container1 {
-width: 30%;
-display: flex;
-flex-direction: column;
-justify-content:space-between;
-padding: 1rem;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
 }
 
 #container2 {
-width: 70%;
-padding: 2rem;
+  width: 70%;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
 }
 
+.header {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
