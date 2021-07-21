@@ -12,27 +12,22 @@ display: flex;
 }
 
 .boxes {
-    height: 32%;
-    background-color: rgb(95, 95, 97);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* margin: 10px */
+height: 32%;
+background-color: rgb(95, 95, 97);
+display: flex;
+justify-content: center;
+align-items: center;
 }
 #container1 {
-    width: 30%;
-    /* border: 2px solid green; */
-    display: flex;
+width: 30%;
+display: flex;
 flex-direction: column;
 justify-content:space-between;
 padding: 1rem;
 }
 
 #container2 {
-    width: 70%;
-    /* border: 2px solid blue */
+width: 70%;
+padding: 2rem;
 }
 
-h2 {
-   
-}
