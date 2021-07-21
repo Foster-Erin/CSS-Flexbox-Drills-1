@@ -3,3 +3,48 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+nav {
+  height: 100px;
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+  grid-template-rows: 50px 50px;
+  background-image: linear-gradient(yellow, white, pink);
+  grid-template-areas:
+    "home about . logo"
+    "menu contact . logo";
+}
+
+h1 {
+  grid-area: logo;
+  display: grid;
+  place-content: center;
+}
+
+.links {
+}
+
+#home {
+  display: grid;
+  place-content: center;
+  grid-area: home;
+}
+
+#about {
+  display: grid;
+  place-content: center;
+  grid-area: about;
+}
+
+#menu {
+  display: grid;
+  place-content: center;
+  grid-area: menu;
+}
+
+#contact {
+  display: grid;
+  place-content: center;
+  grid-area: contact;
+}

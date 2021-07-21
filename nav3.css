@@ -11,9 +11,9 @@
   /* padding: 70px; */
   background-image: linear-gradient(
     to left,
-    rgb(243, 145, 145),
-    rgb(243, 50, 79),
-    rgb(255, 255, 255)
+    rgb(240, 180, 180),
+    rgb(228, 112, 219),
+    rgb(244, 227, 227)
   );
   /* justify-content: center;
   margin-bottom: 70px; */
@@ -37,6 +37,7 @@
   grid-row-end: 2;
   display: grid;
   place-content: center;
+  margin-top: 10px;
 }
 
 .links {
@@ -49,4 +50,5 @@
 
 .links a {
   margin: 0 12px;
+  padding: 15px;
 }
