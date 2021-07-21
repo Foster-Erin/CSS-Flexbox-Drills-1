@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#nav2 {
+  display: flex;
+  border: black solid 1px;
+  height: 2px;
+  padding: 70px;
+  background-image: linear-gradient(
+    to left,
+    rgb(235, 156, 235),
+    rgb(242, 204, 210),
+    rgb(249, 200, 111)
+  );
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.nav2 a + a {
+  margin-left: 50px;
+}
