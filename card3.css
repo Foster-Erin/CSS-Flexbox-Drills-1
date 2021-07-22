@@ -19,12 +19,10 @@
 
 #circle {
   background: red;
+  border: 1px solid black;
   height: 10rem;
   width: 10rem;
   border-radius: 100%;
-  grid-area: circle;
-  position: relative;
-  text-align: center;
 }
 
 /* .container2 {
@@ -41,9 +39,15 @@
 
 .container4 {
   grid-area: p;
-  display: grid;
-  place-content: center;
+  display: flex;
+  justify-content: center;
   font-size: 23px;
   background-color: aquamarine;
-  padding: 40px;
+}
+
+.centerme {
+  display: flex;
+  justify-content: center;
+  grid-area: circle;
+  align-items: center;
 }
